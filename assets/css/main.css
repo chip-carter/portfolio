@@ -57,7 +57,12 @@ footer, header, hgroup, menu, nav, section {
 			border: none;
 	}
 	
-	
+	.overlay-text:hover a{
+		
+		color: white;
+		
+		
+	}
 	
 	
 	
@@ -331,7 +336,8 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			/*color: #18bfef !important;*/
+			outline-color: #18bfef;
 		}
 
 	strong, b {
@@ -2684,6 +2690,8 @@ input, select, textarea {
 			display: flex;
 			margin: 2.5rem 0;
 			width: 100%;
+			height: 90%;
+
 		}
 
 
@@ -2693,6 +2701,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				
 			}
 
 		.image.main {
@@ -2701,12 +2710,28 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.pro {
+		
+				display: block;
+				margin: 2.5rem 0;
+				width: 100%;
+				
+	
+			
+		}
+
 			.image.main:first-child {
 				margin-top: 0;
 			}
 
 			.image.main img {
 				width: 100%;
+			}
+
+			.image.pro img {
+				width: 100%;
+				
+				
 			}
 
 		@media screen and (max-width: 736px) {
